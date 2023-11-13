@@ -91,12 +91,13 @@ Markdown is a lightweight markup language that allows you to write using an easy
 
 ### Code Block
 
-```markdown
-  ```python
+<pre>
+```python
   def hello_world():
       print("Hello, World!")
-  ```
 ```
+</pre>
+
 
 ```python
 def hello_world():
