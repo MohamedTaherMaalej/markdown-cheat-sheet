@@ -87,13 +87,20 @@ Markdown is a lightweight markup language that allows you to write using an easy
 `inline code`
 ```
 
+`inline code`
+
 ### Code Block
 
 ```markdown
+  ```python
+  def hello_world():
+      print("Hello, World!")
+  ```
+```
+
 ```python
 def hello_world():
     print("Hello, World!")
-```
 ```
 
 ## Tables
@@ -105,17 +112,27 @@ def hello_world():
 | Cell 3   | Cell 4   |
 ```
 
+| Header 1 | Header 2 |
+| ---------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+
 ## Blockquotes
 
 ```markdown
 > This is a blockquote.
 ```
 
+> This is a blockquote.
+
 ## Horizontal Rule
 
 ```markdown
 ---
 ```
+
+---
+
 
 ## Escaping Characters
 
@@ -124,6 +141,8 @@ To display special characters without formatting, use a backslash (`\`).
 ```markdown
 \*This is not italic\*
 ```
+
+\*This is not italic\*
 
 This is just a basic overview. Markdown supports many more features. For detailed information, refer to the [official Markdown documentation](https://www.markdownguide.org/extended-syntax/).
 
